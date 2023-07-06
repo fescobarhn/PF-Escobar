@@ -1,0 +1,13 @@
+button {
+    transition: background-color 0.5s ease;
+  
+    &:hover {
+      background-color: darken($button-color, 5%);
+    }
+  }
+  
+  .card {
+    &:hover {
+      @include zoomIn;
+    }
+  }

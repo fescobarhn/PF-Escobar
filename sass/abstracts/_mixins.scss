@@ -1,0 +1,24 @@
+@mixin animate($animation-name) {
+    animation: $animation-name 1s;
+  }
+  
+  @mixin bounceIn {
+    @include animate('bounceIn');
+  }
+  
+  @mixin fadeIn {
+    @include animate('fadeIn');
+  }
+  
+  @mixin slideInLeft {
+    @include animate('slideInLeft');
+  }
+  
+  @mixin flipInX {
+    @include animate('flipInX');
+  }
+  
+  @mixin zoomIn {
+    @include animate('zoomIn');
+  }
+  

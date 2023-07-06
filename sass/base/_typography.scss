@@ -1,0 +1,14 @@
+.nav-link {
+    color: $navbar-color;
+  
+    &:hover {
+      color: $navbar-color;
+      text-decoration: underline;
+    }
+  }
+  
+  h5 {
+    text-align: center;
+    padding-top: $card-body-padding;
+  }
+  

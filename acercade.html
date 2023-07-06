@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <!-- La meta viewport es fundamental para el diseño responsivo -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Direcly | Servicios Digitales de alto impacto</title>
+  <!-- Meta tags para SEO -->
+  <meta name="description" content="Direcly ofrece servicios digitales de alto impacto que ayudarán a tu negocio a crecer en línea.">
+  <meta name="keywords" content="Agencia Digital, Marketing Online, SEO, Redes Sociales, Desarrollo Web, Email Marketing, Contenido">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <!-- Fuentes -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+  <!-- Hojas de estilo -->
+  <link rel="stylesheet" href="css/main.scss"> <!-- Aquí deberías tener tu archivo SASS que posteriormente será compilado a CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logo de la empresa"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="acercade.html">Acerca De</a></li>
+            <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="nuestrosclientes.html">Nuestros Clientes</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  
+    <section class="hero bg-light text-center py-5 d-flex align-items-center justify-content-center" 
+    style="height: 40vh; background-image: url('img/bg-image-in.png'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+  <div class="container">
+    <h1>Acerca De</h1>      
+  </div>
+  </section>
+  
+    <section class="py-5">
+      <div class="container">
+          <div class="description text-center">
+              <p class="lead">Una agencia digital se especializa en estrategias de marketing y publicidad en línea.
+                  Esto puede abarcar desde servicios de SEO, publicidad en redes sociales, desarrollo web,
+                  email marketing hasta marketing de contenidos y más. Nuestra meta es ayudarte a crecer
+                  tu presencia en línea y alcanzar tus objetivos comerciales.</p>
+  
+              <p class="lead">Nuestro equipo de expertos se dedica a entender tu negocio y tus necesidades para desarrollar
+                  estrategias personalizadas que generen resultados. Realizamos un seguimiento constante y
+                  ajustamos nuestras estrategias según sea necesario para asegurarnos de que estás obteniendo
+                  el máximo rendimiento de tu inversión. Ya sea que necesites una nueva página web, mejorar tu
+                  clasificación en los motores de búsqueda, o lanzar una campaña de publicidad digital, estamos
+                  aquí para ayudarte a tener éxito en el mundo digital.</p>
+          </div>
+      </div>
+  </section>
+  
+  <div class="container py-5">
+    <div class="accordion" id="faqAccordion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              ¿Qué servicios ofrece una agencia digital?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqAccordion">
+          <div class="card-body">
+            Las agencias digitales ofrecen una variedad de servicios incluyendo desarrollo web, SEO, marketing en redes sociales, email marketing, y más.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              ¿Cómo puede una agencia digital ayudar a mi negocio?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+          <div class="card-body">
+            Una agencia digital puede ayudar a aumentar la visibilidad online de tu negocio, atraer más clientes y aumentar tus ventas mediante el uso de diversas estrategias de marketing digital.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              ¿Cómo selecciono la agencia digital adecuada para mi negocio?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
+          <div class="card-body">
+            Debes considerar varios factores al seleccionar una agencia digital, incluyendo su experiencia en tu industria, su portafolio de trabajo previo, sus precios y su reputación.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+        <section class="newsletter bg-dark text-white py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 mx-auto text-center">
+                <h2>Subscríbete a nuestro Boletín</h2>
+                <p class="lead">Entérate de las últimas noticias y promociones directamente en tu bandeja de entrada</p>
+                <form class="d-flex flex-column flex-sm-row gap-3 justify-content-center mt-4">
+                  <input type="email" class="form-control" placeholder="Ingresa tu email" required>
+                  <button type="submit" class="btn btn-warning">Subscribirse</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>  
+      
+        <footer class="bg-dark text-light py-3">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center">
+                <img src="img/logo_white.png" alt="Logo de la empresa">
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a href="acercade.html" class="text-light">Acerca De</a></li>
+                  <li class="list-inline-item"><a href="servicios.html" class="text-light">Servicios</a></li>
+                  <li class="list-inline-item"><a href="nuestrosclientes.html" class="text-light">Nuestros Clientes</a></li>
+                  <li class="list-inline-item"><a href="contacto.html" class="text-light">Contacto</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+    <!-- JS -->  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>

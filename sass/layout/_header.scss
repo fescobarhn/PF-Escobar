@@ -1,0 +1,19 @@
+.hero-main, .hero {
+    height: 100vh;
+    color: $footer-color;
+    padding: 0 $feature-padding;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    @include animate(fadeIn);
+  }
+  
+  .hero-main {
+    background-color: $hero-color;
+  }
+  
+  .hero {
+    background-color: $hero-secondary-color;
+  }
+  
